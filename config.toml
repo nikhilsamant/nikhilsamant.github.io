@@ -1,0 +1,103 @@
+baseURL = "https://nikhilsamant.github.io"
+languageCode = "en-us"
+title = "Nikhil Samant"
+theme = "careercanvas"
+
+[build]
+  writeStats = true
+
+[params]
+name = "Nikhil Samant"
+tagline = "Team Lead. Developer. Innovator."
+location = "Mumbai, India"
+email = "nikhilsamant4@hotmail.com"
+profile_image = "/images/nikhil-samant-profile.jpg"
+description = "Lead Consultant Developer with 11+ years of experience leading cloud modernization initiatives and cross-functional teams, specializing in .NET Core, Azure/AWS architectures, and automation solutions that drive business impact."
+author = "Nikhil Samant"
+
+hero_description = "Lead Consultant Developer with 11+ years of experience leading cloud modernization initiatives and cross-functional teams, specializing in .NET Core, Azure/AWS architectures, and automation solutions that drive business impact."
+hero_location = "Mumbai, India"
+
+linkedin_url = "https://www.linkedin.com/in/nikhil-s-samant/"
+linkedin_text = "linkedin.com/in/nikhil-s-samant/"
+github_url = "https://github.com/nikhilsamant"
+github_text = "github.com/nikhilsamant"
+
+copyright = "© 2025 | Nikhil Samant"
+
+collab_tags = [
+  "AI Solutions",
+  "Enterprise Applications",
+  "Cloud Modernization",
+  "Technical Leadership",
+]
+
+resume_url_en = "/files/Nikhil_Samant_Resume.pdf"
+resume_label = "View Resume"
+
+formspree_endpoint = "https://formspree.io/f/xeozrkrb" # Change to your Formspree endpoint
+
+[[params.social]]
+icon = "linkedin-in"
+url = "https://www.linkedin.com/in/nikhil-s-samant/"
+
+[[params.social]]
+icon = "github"
+url = "https://github.com/nikhilsamant"
+
+sectionPagesMenu = 'main'
+
+[[menu.main]]
+  name = "Experience"
+  url = "/#experience"
+  weight = 4
+
+[[menu.main]]
+  name = "About"
+  url = "/#about"
+  weight = 2
+
+[[menu.main]]
+  name = "Skills"
+  url = "/#skills"
+  weight = 3
+
+[[menu.main]]
+  name = "Experience"
+  url = "/#experience"
+  weight = 4
+
+[[menu.main]]
+  name = "Contact"
+  url = "/#contact"
+  weight = 5
+
+#[[menu.main]]
+#  name = "Blog"
+#  url = "/blog/"
+#  weight = 60
+
+[[menu.main]]
+  name = "Technical Skills"
+  url = "/#technical"
+  weight = 4.5
+
+[taxonomies]
+  tag = "tags"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    style = "monokai"
+
+[server]
+  [[server.headers]]
+    for = "/**/*.css"
+    [server.headers.values]
+      Content-Type = "text/css"
+
+
+
+
